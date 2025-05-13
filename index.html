@@ -25,5 +25,12 @@
       <div id="progress">Racing...</div>
     </div>
 		<script type="module" src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/capabilities/WebGL.js"></script>
+    <script>
+  if (!WEBGL.isWebGLAvailable()) {
+    alert("Your browser doesn't support WebGL. Please try a different device.");
+  }
+</script>
+
 	</body>
 </html>
